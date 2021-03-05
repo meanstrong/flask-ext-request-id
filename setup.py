@@ -12,7 +12,7 @@ with open("LICENSE", encoding="utf-8") as f:
 
 setup(
     name="flask-ext-request-id",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(exclude=["test*"]),
     zip_safe=False,
     url="https://github.com/meanstrong/flask-ext-request-id",
