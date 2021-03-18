@@ -1,6 +1,5 @@
 import uuid
 
-
 from flask import g, request, has_request_context
 
 

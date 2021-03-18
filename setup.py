@@ -3,6 +3,8 @@
 
 from setuptools import setup, find_packages
 
+import flask_ext_request_id
+
 
 with open("README.md", encoding="utf-8") as f:
     readme = f.read()
@@ -12,7 +14,7 @@ with open("LICENSE", encoding="utf-8") as f:
 
 setup(
     name="flask-ext-request-id",
-    version="0.0.2",
+    version=flask_ext_request_id.__version__,
     packages=find_packages(exclude=["test*"]),
     zip_safe=False,
     url="https://github.com/meanstrong/flask-ext-request-id",
