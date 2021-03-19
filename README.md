@@ -1,5 +1,9 @@
 # flask-request-id - 一个Flask每次接收请求时生成request_id的模块
 
+[![image](https://img.shields.io/pypi/v/flask-ext-request-id.svg)](https://pypi.org/project/flask-ext-request-id/)
+[![image](https://img.shields.io/pypi/l/flask-ext-request-id.svg)](https://pypi.org/project/flask-ext-request-id/)
+
+
 ## About
 一个Flask每次接收请求时生成request_id的模块。  
 
